@@ -1,0 +1,250 @@
+.main {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: pp mori;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.content{
+    /* background-color:; */
+    width: 100%;
+    height: 50vh;
+    /* height: 80%; */
+    
+    position: relative;
+    background-image: url("../img.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    /* flex-wrap: wrap; */
+
+}
+
+.part1{
+    padding: 5vw 4vw;
+}
+
+.part1 h2{
+    margin-top: 30px;
+    font-size: 4vw;
+    font-weight: 500;
+    /* margin: 80px 60px; */
+    line-height: 4.5vw;
+    text-align: center;
+    color: antiquewhite;
+    
+
+}
+ .part1 p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #31D2F2;   
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+    line-height: 1.5vw;
+    text-align: center;
+    
+    /* margin: 0 60px; */
+}
+
+.content-1 .part1{
+    display: flex;
+    margin: 2vw 4vw;
+    gap: 1.5vw;
+
+}
+
+.content-1 .page1 .card{
+    max-height: 25px;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        padding: 1em 0;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin: 0 1em;
+    }
+}
+
+.navbar .navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    content: "";
+    background-color: rgb(68, 190, 242);
+    width: 0%;
+    height: 4px;
+    transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+
+.page1 h2{
+    font-size: 4.5vw;
+    font-weight: 500;
+    /* margin: 80px 60px; */
+    line-height: 4.5vw
+}
+
+/* .card-body{
+    padding: 10 !important;
+} */
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+
+/*
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+*/

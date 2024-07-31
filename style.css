@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+@media screen and (max-width: 760px){
+
+
+    .image-form{
+        height: 40vh;
+    }
+    .image-form h1{
+        font-size: 1.8rem;
+        
+    }
+    .image-form p{
+        font-size: 1rem;
+
+    }
+    .image-form .generate-form{
+        margin-top: 30px;
+        height: 52px;
+        display:block;
+    }
+
+    .generate-form .controls{
+        height: 40px;
+        margin-top:15px ;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .generate-form .img-quantity{
+        color: #fff;
+    }
+
+    .generate-form .img-quantity option{
+        color: #000;
+    }
+
+    .generate-form .generate-btn {
+        height: 100%;
+    }
+
+    .card-section{
+        margin-top: 20px;
+    }
+
+    
+
+
+
+
+}
+
+@media screen and (max-width: 550px) {
+    .card-section .img-card{
+        width: 100%;
+    }
+    
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    border-bottom: 2px solid #222;
+    border-top: 2px solid #222;
+    background-color: #000;
+}
+
+.nav-part2{
+    display: flex;
+    /* background-color: bisque; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    color: #f2f2f2;
+
+}
+nav h2{
+    font-size: 2.6vw;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.nav-part2 h4{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav-part2 i{
+    display: none;
+}
+
+
